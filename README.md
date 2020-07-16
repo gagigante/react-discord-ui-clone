@@ -21,7 +21,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
 <p align="center">
-  <a href="#rocket-tecnologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#runner-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -34,7 +34,7 @@
   <img alt="Frontend" src=".github/discord.png" width="600px">
 </p>
 
-## :rocket: Tecnologies
+## :rocket: Technologies
 
 This project was developed with the following techs:
 
