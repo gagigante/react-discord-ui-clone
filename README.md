@@ -85,5 +85,3 @@ After merge of your pull request, you can delete your branch.
 This project is under MIT license. See the file [LICENSE](LICENSE) for details.
 
 ---
-
-[Visit my website!](https://www.ggportfolio.com.br)
