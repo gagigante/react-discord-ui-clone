@@ -1,8 +1,8 @@
 import React from 'react';
 
-// import Logo from '../../assets/Logo.svg';
-
 import { Button } from './styles';
+
+import Logo from '../../assets/images/logo.png';
 
 export interface Props {
   selected?: boolean;
@@ -24,7 +24,7 @@ const ServerButton: React.FC<Props> = ({
       mentions={mentions}
       className={selected ? 'active' : ''}
     >
-      {isHome && <img src="https://avatars0.githubusercontent.com/u/28929274?s=200&v=4" alt="Rocketseat" />}
+      {isHome && <img src={Logo} alt="Accountfy" />}
     </Button>
   );
 };

@@ -14,14 +14,22 @@ export const Button = styled.button<Props>`
   margin-bottom: 8px;
 
   background-color: ${(props) =>
-    props.isHome ? 'var(--rocketseat)' : 'var(--primary)'};
+    props.isHome ? 'var(--accountfy)' : 'var(--primary)'};
   position: relative;
   
   cursor: pointer;
   
   > img {
-    width: 24px;
-    height: 24px;
+    width: 100%;
+    height: 100%;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition: border-radius 0.2s;
+
+    &:hover {
+      border-radius: 16px;
+    }
   }
   
   &::before {
@@ -61,6 +69,6 @@ export const Button = styled.button<Props>`
   &:hover {
     border-radius: 16px;
     background-color: ${(props) =>
-      props.isHome ? 'var(--rocketseat)' : 'var(--discord)'};
+      props.isHome ? 'var(--accountfy)' : 'var(--discord)'};
   }
 `;
