@@ -12,6 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
+  white-space: nowrap;
   font-size: 16px;
   font-weight: bold;
   color: var(--white);
