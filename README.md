@@ -1,24 +1,24 @@
 <h1 align="center">
-    <img alt="Discord" title="#Discord" src=".github/logo.png" width="250px" />
+  <img alt="Discord" title="#Discord" src=".github/logo.png" width="72px" />
+  <br><br>
+  Discord UI clone
 </h1>
 
-<h4 align="center">
-  Discod UI clone
-</h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gagigante/Discord-UI-Clone">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/gagigante/Discord-UI-Clone">
   
-  <a href="https://github.com/gagigante/Discord-UI-Clone/commits/master">
+  <a href="https://github.com/gagigante/Discord-UI-Clone/commits/master" style="text-decoration: none">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gagigante/Discord-UI-Clone">
   </a>
 
-  <a href="https://github.com/gagigante/Discord-UI-Clone/issues">
+  <a href="https://github.com/gagigante/Discord-UI-Clone/issues" style="text-decoration: none">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/gagigante/Discord-UI-Clone">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -31,7 +31,7 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src=".github/discord.png" width="600px">
+  <img alt="Frontend" src=".github/frontend.png">
 </p>
 
 ## :rocket: Technologies
@@ -42,9 +42,9 @@ This project was developed with the following techs:
 - [Typescript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 
-## 💻 Project
+## :computer: Project
 
-This project is a clone based in Discod UI
+This project is a clone based in Discord UI
 
 ## :runner: How to run
 
@@ -71,7 +71,7 @@ To build the app
   $ yarn build
 ```
 
-## 🤔 How to contribute
+## :thinking: How to contribute
 
 - Fork this repo;
 - Create a branch for your new feature: `git checkout -b my-feature`;
