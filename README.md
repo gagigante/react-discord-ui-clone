@@ -5,6 +5,10 @@
 </h1>
 
 <p align="center">
+  <a href="https://relaxed-tereshkova-430f40.netlify.app/" style="text-decoration: none">
+    <img alt="GitHub language count" src="https://api.netlify.com/api/v1/badges/5c29201c-c39f-42c8-bbb5-dd863568d121/deploy-status">
+  </a>
+
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gagigante/Discord-UI-Clone">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/gagigante/Discord-UI-Clone">
@@ -34,6 +38,7 @@
   <img alt="Frontend" src=".github/frontend.png">
 </p>
 
+
 ## :rocket: Technologies
 
 This project was developed with the following techs:
@@ -44,7 +49,7 @@ This project was developed with the following techs:
 
 ## :computer: Project
 
-This project is a clone based in Discord UI
+This project is a Discord based UI clone
 
 ## :runner: How to run
 
