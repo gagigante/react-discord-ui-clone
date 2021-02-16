@@ -1,6 +1,6 @@
 <h1 align="center">
   <img alt="Discord" title="#Discord" src=".github/logo.png" width="72px" />
-  <br><br>
+  <br>
   Discord UI clone
 </h1>
 
