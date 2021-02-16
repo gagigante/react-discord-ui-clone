@@ -71,8 +71,8 @@ export const InputContainer = styled.div`
 `;
 
 export const BellIcon = styled(Notifications)`
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   color: var(--gray);
   transition: 0.2s;
   margin: auto 6px;
@@ -84,8 +84,8 @@ export const BellIcon = styled(Notifications)`
 `;
 
 export const PeopleIcon = styled(People)`
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   color: var(--gray);
   transition: 0.2s;
   margin: auto 6px;
@@ -97,8 +97,8 @@ export const PeopleIcon = styled(People)`
 `;
 
 export const FileIcon = styled(FileTray)`
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   color: var(--gray);
   transition: 0.2s;
   margin: auto 6px;
@@ -110,8 +110,8 @@ export const FileIcon = styled(FileTray)`
 `;
 
 export const HelpIcon = styled(HelpCircle)`
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   color: var(--gray);
   transition: 0.2s;
   margin: auto 6px;
@@ -123,8 +123,8 @@ export const HelpIcon = styled(HelpCircle)`
 `;
 
 export const BookmarkIcon = styled(Bookmark)`
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   color: var(--gray);
   transition: 0.2s;
   margin: auto 6px;
