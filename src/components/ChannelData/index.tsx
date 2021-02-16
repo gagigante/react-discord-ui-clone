@@ -1,8 +1,9 @@
 import React, { useRef, useEffect } from 'react';
+import faker from 'faker';
 
 import ChannelMessage, { Mention } from '../ChannelMessage';
 
-import { Container, Messages, InputWrapper, Input, InputIcon } from './styles';
+import { Container, Messages, InputContainer, InputWrapper, Input, InputIcon } from './styles';
 
 const ChannelData: React.FC = () => {
   const messagesRef = useRef() as React.MutableRefObject<HTMLDivElement>;
@@ -21,14 +22,14 @@ const ChannelData: React.FC = () => {
         {Array.from(Array(15).keys()).map((n) => (
           <ChannelMessage
             key={n}
-            author="Gabriel Gigante"
+            author={faker.name.findName()}
             date="00/00/0000"
             content="some text"
           />
         ))}
 
         <ChannelMessage
-          author="Diego Fernandes"
+          author={faker.name.findName()}
           date="00/00/0000"
           content={
             <>
@@ -40,10 +41,12 @@ const ChannelData: React.FC = () => {
         />
       </Messages>
 
-      <InputWrapper>
-        <Input type="text" placeholder="Conversarem #chat-livre" />
-        <InputIcon />
-      </InputWrapper>
+      <InputContainer>
+        <InputWrapper>
+          <Input type="text" placeholder="Conversarem #chat-livre" />
+          <InputIcon />
+        </InputWrapper>
+      </InputContainer>
     </Container>
   );
 };

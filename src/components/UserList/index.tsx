@@ -1,4 +1,5 @@
 import React from 'react';
+import faker from 'faker';
 
 import { Container, Role, User, Avatar } from './styles';
 
@@ -24,43 +25,13 @@ const UserList: React.FC = () => {
       <Role>Disponível - 1</Role>
       <UserRow nickname="gagigante" />
 
-      <Role>Offline - 8</Role>
-      <UserRow nickname="gagigante" isBot />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
-      <UserRow nickname="gagigante" />
+      <Role>Offline - 16</Role>
+
+      <UserRow nickname={faker.name.findName()} isBot />
+
+      {Array.from(Array(15).keys()).map((n) => (
+        <UserRow nickname={faker.name.findName()} />
+      ))}
     </Container>
   );
 };
