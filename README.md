@@ -1,7 +1,7 @@
 <h1 align="center">
   <img alt="Discord" title="#Discord" src=".github/logo.png" width="72px" />
   <br>
-  React Discord UI clone
+  React Discord UI Clone
 </h1>
 
 <p align="center">
